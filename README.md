@@ -1,4 +1,4 @@
-# OOP Ruby Capstone Project
+# Catalog Of Things Ruby
 
 > This project is the capstone project of Ruby module. , it demonstartes OOP concept of the Ruby language through creating classes and constructors, in addition to other features like methods, inheritance and more.
 
