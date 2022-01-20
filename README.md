@@ -9,7 +9,7 @@
 ## Getting started
   Run the following commands on the terminal your local machine:
 
-  - `git clone https://github.com/Rayan84/school-library.git`
+  - `git clone https://github.com/Rayan84/catalog-of-things-ruby.git`
   - `cd school-library`
   - `ruby the/path/to/main.rb`
 
