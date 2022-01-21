@@ -1,3 +1,7 @@
+require_relative 'functions'
+require_relative 'app'
+include Functions
+
 
 def welcome_message
   puts ''
@@ -11,15 +15,15 @@ def welcome_message
 end
 
 def check_input(num)
+  session = App.new
   if num == 1
-    puts "num"
     list_all_books
   elsif num == 2
     list_all_labels
   elsif num == 3
     list_all_authors
   elsif num == 4
-    add_book
+    add_item
   elsif num == 5
     !exit
   end
@@ -31,7 +35,7 @@ def options
   1- List all books
   2- List all labels
   3- List all authors
-  4- Add a book
+  4- Add an item
   5- Exit
   "
   answer = gets.chomp

@@ -3,14 +3,14 @@ require 'date'
 class Item
   attr_accessor :genre, :author, :source, :label, :publish_date, :archived
   attr_reader :id
-  def initialize
+  def initialize(genre, author, source, label, archived = false)
     @id = Random.rand(1...1000)
-    @genre = Genre
-    @author = Author
-    @source = Source
-    @label = Label
-    @publish_date = date
-    @archived = false
+    @genre = genre
+    @author = author
+    @source = source
+    @label = label
+    @publish_date
+    @archived
   end
 
   # one to many should not be set in constructor, instead they should have dependent setter methods
