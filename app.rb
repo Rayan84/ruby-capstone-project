@@ -1,6 +1,10 @@
 class App
+  attr_accessor :books, :authors, :labels
+
   def initialize
-    books = []
+    puts 'session just created...'
+    @books = []
+    @authors = []
+    @labels = []
   end
-  
 end
