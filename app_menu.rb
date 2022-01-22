@@ -21,8 +21,7 @@ class App
       '10' => 'Exit'
     }
   end
-  
-  # rubocop:disable ClassLength
+
   def run
     book_load
     music_load
@@ -49,7 +48,6 @@ class App
     @movie_handler.save_movies
     @movie_handler.save_sources
   end
-  # rubocop:enable ClassLength
 
   def print_o
     welcome = '
