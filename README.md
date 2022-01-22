@@ -6,12 +6,17 @@
 ## Screenshot
 <img src='./screenshot.png'>
 
+## Presentation
+<Video src='./>
+
 ## Getting started
   Run the following commands on the terminal your local machine:
 
   - `git clone https://github.com/Rayan84/catalog-of-things-ruby.git`
-  - `cd school-library`
+  - `cd catalog-of-things-ruby`
+  - `bundle`
   - `ruby the/path/to/main.rb`
+
 
 ## Authors
 
