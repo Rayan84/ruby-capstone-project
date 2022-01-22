@@ -7,7 +7,7 @@
 <img src='./screenshot.png'>
 
 ## Presentation
-<Video src='./>
+[Video](https://youtu.be/UfSsahg91uI)
 
 ## Getting started
   Run the following commands on the terminal your local machine:
