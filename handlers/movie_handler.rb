@@ -6,7 +6,7 @@ require './source'
 class MovieHandler
   attr_accessor :movie
 
-  def initialize()
+  def initialize
     @movies = []
     @sources = []
   end

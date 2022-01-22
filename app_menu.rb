@@ -56,10 +56,10 @@ class App
         \   Welcome to Catalog Of Things app    \
          \   ,--------------------------------------
           \_/_____________________________________/ '
-  welcome.each_char do |char|
-    print char
-    sleep(0.01)
-  end
+    welcome.each_char do |char|
+      print char
+      sleep(0.01)
+    end
     puts '  '
     puts '  '
     puts Rainbow('Please choose an option by entering a number.')

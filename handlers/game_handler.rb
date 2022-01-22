@@ -6,7 +6,7 @@ require './author'
 class GamesHandler
   attr_accessor :games
 
-  def initialize()
+  def initialize
     @games = []
     @authors = []
   end
