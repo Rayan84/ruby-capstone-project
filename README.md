@@ -17,6 +17,10 @@
   - `bundle`
   - `ruby the/path/to/main.rb`
 
+## Tests
+  Run the below command on the terminal:
+  
+  - `rspec`
 
 ## Authors
 
