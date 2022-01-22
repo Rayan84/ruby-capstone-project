@@ -22,6 +22,17 @@ class App
     }
   end
 
+  def additional_functions
+    save_books
+    save_labels
+    save_music
+    save_genre
+    @game_handler.save_author
+    @game_handler.save_games
+    @movie_handler.save_movies
+    @movie_handler.save_sources
+  end
+
   def run
     book_load
     music_load
@@ -39,14 +50,7 @@ class App
 
       handle_option option
     end
-    save_books
-    save_labels
-    save_music
-    save_genre
-    @game_handler.save_author
-    @game_handler.save_games
-    @movie_handler.save_movies
-    @movie_handler.save_sources
+    additional_functions
   end
 
   def print_o
